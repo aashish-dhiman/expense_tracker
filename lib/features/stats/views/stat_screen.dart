@@ -1,4 +1,4 @@
-import 'package:expense_tracker/features/stats/views/charts.dart';
+import 'package:expanzify/features/stats/views/charts.dart';
 import 'package:flutter/material.dart';
 
 class StatScreen extends StatelessWidget {

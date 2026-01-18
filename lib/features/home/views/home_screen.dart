@@ -1,6 +1,7 @@
 import 'dart:math' as math;
-import 'package:expense_tracker/features/home/views/main_screen.dart';
-import 'package:expense_tracker/features/stats/views/stat_screen.dart';
+import 'package:expanzify/features/add_expense/views/add_expense.dart';
+import 'package:expanzify/features/home/views/main_screen.dart';
+import 'package:expanzify/features/stats/views/stat_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -71,7 +72,12 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         shape: CircleBorder(),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => AddExpense()),
+          );
+        },
         child: Container(
           width: 60,
           height: 60,

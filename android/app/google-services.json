@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:289122726859:android:7ae4d256ee9d5cfd6dbc4e",
+        "mobilesdk_app_id": "1:289122726859:android:3dcffeb62ba0f07f6dbc4e",
         "android_client_info": {
-          "package_name": "com.ezapps.expense_tracker"
+          "package_name": "com.ezapps.expanzify"
         }
       },
       "oauth_client": [],
